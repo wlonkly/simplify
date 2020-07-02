@@ -544,12 +544,12 @@ States (text button labels)
 	Menu open, Add-ons open, Search open
  */
 
-@media only screen and (max-width: 1278.97px) {
+@media only screen and (max-width: 1200px) {
   html.simpl {
     --content-width: 100%;
   }
 }
-@media only screen and (min-width: 1278.98px) {
+@media only screen and (min-width: 1200px) {
   /* DETAULT VIEWS: Move actions to left edge of content */
   html.simpl {
     --content-width: 960px;
@@ -794,7 +794,7 @@ States (text button labels)
   }
 }
 
-@media only screen and (min-width: 1278.98px) and (max-width: 1638.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1638.98px) {
   /* Don't align the actions if the nav and add-ons are both open */
   html.simpl.noSplitPane.navOpen.addOnsOpen .aeF .G-atb[gh="tm"],
   html.simpl.noSplitPane.navOpen.addOnsOpen .aeH .G-atb[gh="tm"] {
@@ -1066,7 +1066,7 @@ html.simpl.readingPane:not(.noSplitPane) .G-atb[gh='tm'] > div.G6::before {
     left: -36px;
   }
 }
-@media only screen and (max-width: 1278.98px) {
+@media only screen and (max-width: 1200px) {
   html.simpl.navOpen div[gh="tm"] div[role="toolbar"] {
     left: 205px;
   }
@@ -1511,7 +1511,7 @@ html.simpl.readingPane .G-atb[gh="tm"]:before {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
-@media only screen and (min-width: 1278.98px) {
+@media only screen and (min-width: 1200px) {
   html.simpl.readingPane.navOpen.hideSearch:not(.noSplitPane) .G-atb[gh="tm"] {
     padding-left: 212px;
   }
@@ -1526,7 +1526,7 @@ html.simpl.readingPane .UJ {
 }
 
 /* Adjust width of action bar for small resolutions */
-@media only screen and (max-width: 1278.98px) {
+@media only screen and (max-width: 1200px) {
   html.simpl.readingPane.hideSearch .G-atb[gh="tm"] {
     width: calc(100vw - 204px);
   }
@@ -1604,7 +1604,7 @@ html.simpl.readingPane .aph {
 
 /* Below 1250px, hide the pagination controls */
 /* TODO: Shouldn't I do this for all setups, not just reading pane? */
-@media only screen and (max-width: 1278.98px) {
+@media only screen and (max-width: 1200px) {
   html.simpl.readingPane.addOnsOpen:not(.hideSearch)
     .aE3
     .G-atb
@@ -1641,7 +1641,7 @@ html.simpl.noSplitPane div[gh="tl"] .ae4 {
   max-width: var(--content-width);
   margin: 0 auto;
 }
-@media only screen and (min-width: 1278.98px) {
+@media only screen and (min-width: 1200px) {
   /* Inbox tabs */
   html.simpl.noSplitPane .aeF .aKh {
     max-width: var(--content-width);
@@ -1696,7 +1696,7 @@ html.simpl.readingPane.noSplitPane .Tm .ya {
   position: relative;
   left: -8px;
 }
-@media only screen and (max-width: 1278.98px) {
+@media only screen and (max-width: 1200px) {
   html.simpl.readingPane.noSplitPane .Tm .ya {
     left: 0;
     margin-right: 16px;
@@ -2072,7 +2072,7 @@ html.simpl.addOnsOpen.hideSearch:not(.noSplitPane) .aeH {
 html.simpl.addOnsOpen.hideSearch.readingPane:not(.noSplitPane) .G-atb[gh="tm"] {
   width: calc(100vw - 535px) !important;
 }
-@media only screen and (min-width: 1278.98px) {
+@media only screen and (min-width: 1200px) {
   html.simpl.addOnsOpen.hideSearch.navOpen.readingPane:not(.noSplitPane)
     .G-atb[gh="tm"] {
     width: calc(100vw - 731px) !important;
